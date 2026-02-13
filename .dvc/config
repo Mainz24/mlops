@@ -1,0 +1,7 @@
+[core]
+    remote = minio_storage
+    autostage = true
+['remote "minio_storage"']
+    url = s3://chigvintsevdenis/mlops_versionig/lesson4_data
+    use_ssl = false
+    endpointurl = http://85.239.47.84:9000
